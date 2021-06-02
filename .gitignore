@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution / packaging
+.idea/*
+
+# Complied source #
+__init__.py
+*.pyc
+
+# Reporting and logs #
+artifacts/*
+*.output
+
+# Settings #
+settings.py
+
