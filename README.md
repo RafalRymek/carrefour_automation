@@ -1,6 +1,6 @@
 # Carrefour online shopping script
 
-## Automation test script in python which help book delivery date and add products to basket
+ Automation test script in python which help book delivery date and add products to basket
 
 ## Following tech stack is using:  
 python  
