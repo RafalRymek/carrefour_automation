@@ -10,7 +10,7 @@ class MainPage(BasePage):
     __AGREEMENT_BUTTON = (By.XPATH, ".//span[contains(text(),'Wyrażam')]")
     __LOGIN_BUTTON = (By.XPATH, "//b[contains(text(),'Zaloguj')]")
     __SEARCH_FIELD_SELECTOR = (By.XPATH, "//input[@id='search-input']")
-    __MAGNIFIER_ICON = (By.XPATH, "//*[@class='MuiButton-label']/*[@class='MuiSvgIcon-root']/.")
+    __MAGNIFIER_ICON = (By.XPATH, "//*[@class='MuiButton-label']/*[@class='MuiSvgIcon-root']/..")
     __ADD_TO_BASKET = (By.XPATH, " //span[contains(text(),'Do koszyka') or normalize-space()='+']")
 
     def agreement_confirmation(self):
